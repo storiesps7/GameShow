@@ -1,0 +1,84 @@
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background: #f4f4f9;
+margin: 0;
+padding: 0;
+}
+
+.container {
+padding: 20px;
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+#categories {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+margin: 20px 0;
+}
+
+.category {
+border: 1px solid #ccc;
+padding: 10px;
+border-radius: 10px;
+background: white;
+}
+
+button {
+margin: 5px;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+background: #007bff;
+color: white;
+cursor: pointer;
+}
+
+button:hover {
+background: #0056b3;
+}
+
+#timer {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#question {
+font-size: 20px;
+margin: 15px 0;
+}
+
+#answers button {
+display: block;
+margin: 10px auto;
+}
+
+footer {
+margin-top: 20px;
+}
+
+.admin-btn {
+font-size: 14px;
+text-decoration: none;
+color: white;
+background: #28a745;
+padding: 8px 12px;
+border-radius: 5px;
+}
+
+.admin-btn:hover {
+background: #1e7e34;
+}
+
+.question-item {
+margin: 10px;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background: #fff;
+}
