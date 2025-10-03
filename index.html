@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quiz Game</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>🎮 Quiz Game</h1>
+<div id="timer">⏳ 30</div>
+<div id="categories"></div>
+<div id="question"></div>
+<div id="answers"></div>
+<div id="score"></div>
+</div>
+
+<footer>
+<a href="admin.html" class="admin-btn">Admin</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
+
+---
+
+### 📄 admin.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Admin - Quiz Game</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>⚙️ Admin Panel</h1>
+<form id="addForm">
+<input type="text" id="category" placeholder="Category" required />
+<input type="number" id="level" placeholder="Level (1-5)" min="1" max="5" required />
+<input type="text" id="questionText" placeholder="Question" required />
+<input type="text" id="optionA" placeholder="Option A" required />
+<input type="text" id="optionB" placeholder="Option B" required />
+<input type="text" id="optionC" placeholder="Option C" required />
+<input type="text" id="optionD" placeholder="Option D" required />
+<input type="text" id="correct" placeholder="Correct (A/B/C/D)" required />
+<button type="submit">Add / Update Question</button>
+</form>
+
+<h2>All Questions</h2>
+<div id="allQuestions"></div>
+</div>
+
+<footer>
+<a href="index.html">⬅ Back to Game</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
